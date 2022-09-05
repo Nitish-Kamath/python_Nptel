@@ -1,0 +1,11 @@
+// file reading 
+
+while reding a file char by char, one thing must be taken care, must check for EOF condn
+content  = file01.read(1)
+if content not in file01:
+  print("EOF")
+  break
+// genral syntax:
+with open("file_name", "r") as file01:
+    print(file01.read())
+file01.close()
